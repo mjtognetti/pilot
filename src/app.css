@@ -1,10 +1,36 @@
 * { box-sizing: border-box; }
 
+.WorkspaceManager {
+}
+
+.WorkspaceManager-workspace {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.WorkspaceManager-workspace--fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.WorkspaceManager-workspace--hidden {
+  position: absolute;
+  display: none;
+}
+
+.WorkspaceManager-workspace--scaled {
+  transform-origin: top left;
+}
+
 
 .Archive {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  overflow: auto;
 }
 
 .Archive-cell {
