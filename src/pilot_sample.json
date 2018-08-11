@@ -1,0 +1,158 @@
+[
+  {
+    "_id": "5b6984be9266cdb2672586e4",
+    "index": 0,
+    "title": "ABSTRACT",
+    "body": "This paper reports on two experiments designed to further our understanding of users’ perception of latency in touch- based systems. The first experiment extends previous efforts to measure latency perception by reporting on a unified study in which direct and indirect form-factors are compared for both tapping and dragging tasks. Our results show significant effects from both form-factor and task, and inform system designers as to what input latencies they should aim to achieve in a variety of system types. A follow-up experiment investigates peoples’ ability to perceive small improvements to latency in direct and indirect form-factors for tapping and dragging tasks. Our results provide guidance to system designers of the relative value of making improvements in latency that reduce but do not fully eliminate lag from their systems."
+  },
+  {
+    "_id": "5b6984be5456feb66c992a54",
+    "index": 1,
+    "title": "INTRODUCTION",
+    "body": "Interface latency – the time interval between a user’s action and the system’s response to that action – is inherent in any computer system; input sensors must be sampled, computations performed, graphics generated, and displays updated. Existing commercial touchscreen devices have latencies that range between 50 and 200 ms [19]. In an ideal world, system designers would keep this latency below the threshold that is detectable by the human visual system, making the experience indistinguishable from a truly latency-free system. However, despite vast increases in the performance of computer systems, latency remains an ever- present blemish on the user experience."
+  },
+  {
+    "_id": "5b6984be8db29174dd33cd34",
+    "index": 2,
+    "title": "INTRODUCTION",
+    "body": "Latency has been the subject of a large body of research, as it has a fundamental impact on the feel of a system and on user performance in pointing tasks. Early work provided guidelines for both direct and indirect pointing tasks [16] in the 100–1000 ms range. Performance-based measurements on indirect input devices showed little improvement below 75 ms [14]."
+  },
+  {
+    "_id": "5b6984be214fd6dc9a41411e",
+    "index": 3,
+    "title": "INTRODUCTION",
+    "body": "Another shortcoming of the previous research in this space is that it focuses exclusively on identifying the minimum perceivable latency for different input tasks. A system designer reading this research would know the ideal latency to reach in order to deliver a perceptually “latency-free” system; however, they are given no guidance as to the value of making improvements to the latency of their device that do not reach this ultimate goal. In this paper, we also present a second experiment in which we aim to investigate people’s ability to perceive improvements to latencies that fall well above this zero lower bound. Our results outline the value of improving latency by varying amounts in modern-day direct and indirect touch-based systems."
+  },
+  {
+    "_id": "5b6984be26e0eed5d0237478",
+    "index": 4,
+    "title": "RELATED WORK",
+    "body": "Latency, defined as the “delay between input action and the output response” [14], is an unavoidable part of any system, resulting from a variety of factors: reading the sensor(s) in an input device and transferring that data to the system, processing the input and performing application logic, rendering the updated UI, and waiting for the display to refresh its current image. The effects of latency on user interaction have been studied in previous works. Much of the prior work addresses system latency; they operate on the assumption of an existing baseline system latency and introduce additional latency as a factor. Techniques, such as those presented by Steed [25] and Kaaresoja et al. [9], can be used to measure baseline system latency. Researchers have also examined the point of subjective simultaneity (the separation at which two distinct stimuli are perceived as simultaneous) for haptic and visual stimuli [27], although most studies have not focused on touch input due to hardware limitations."
+  },
+  {
+    "_id": "5b6984beaa29ae90ecd17eca",
+    "index": 5,
+    "title": "Latency in Indirect Input Systems",
+    "body": "Indirect systems separate input and output regions and require a pointing tool such as a mouse, touchpad, or stylus to provide information to the computer."
+  },
+  {
+    "_id": "5b6984be66be41f277795534",
+    "index": 6,
+    "title": "Latency in Direct Input Systems",
+    "body": "Unlike indirect input systems that separate the input device and the display surface, direct input devices (e.g., touchscreens) have no intermediary; the user inputs directly on the display surface. As with indirect systems, direct touch input devices also suffer from the effects of latency."
+  },
+  {
+    "_id": "5b6984be8b5a423c9a02d6cc",
+    "index": 7,
+    "title": "Measuring Latency Perception: Just Noticeable Difference",
+    "body": "A Just Noticeable Difference (JND) is the minimum difference in a pair of stimuli that is detectable by a person, and can be measured for any perceptual stimuli (e.g., light, pressure, sound). A trial in a JND experiment [13] presents a pair of different stimuli (A and B) to a participant and asks them to identify which is faster (or brighter, louder, etc.)."
+  },
+  {
+    "_id": "5b6984bec8fa21f949bb1e3b",
+    "index": 8,
+    "title": "EXPERIMENT 1: PERCEPTION OF LATENCY IN DIRECT AND INDIRECT POINTING TASKS",
+    "body": "In this first investigation, we aimed to clarify and extend previous efforts on measuring the minimal perceivable latency for common touch-based interactions. We conducted a pair of JND studies in which participants performed either tapping or dragging tasks in both direct and indirect form-factors. We selected dragging and tapping tasks because they represent the basic input primitives used in most user interfaces. Our goals with this experiment were two-fold. First, we aimed to gather data for finger-based indirect (i.e., touchpad) interaction, which had previously been unexplored. Second, we aimed to gather a unified set of data for both direct and indirect form-factors with an identical set of hardware and experimental conditions in order to enable an apples-to-apples comparison."
+  },
+  {
+    "_id": "5b6984be314d3f0a2d52e3d7",
+    "index": 9,
+    "title": "Hypotheses",
+    "body": "Our hypotheses center on the belief that input task and form-factor play major roles in peoples’ ability to perceive input latency and that these differences explain the variety of reported JNDs in the literature."
+  },
+  {
+    "_id": "5b6984becb4d3c5e94a852a6",
+    "index": 10,
+    "title": "Apparatus",
+    "body": "We used a high-speed Fast Multi-Touch (FMT) sensor and projector similar to that described in Leigh et al. [12] and illustrated in Figure 1.The system provides a 15 cm × 20 cm capacitive touch sensor, which would have provided too much freedom of movement for our participants; since we were interested in the JND thresholds for dragging and tapping input primitives, unconstrained movements over the entire touch sensor would have provided an unwanted confound."
+  },
+  {
+    "_id": "5b6984be074cbe4fbed09897",
+    "index": 11,
+    "title": "Procedure",
+    "body": "After participants were briefed on the study, they completed a short warm-up session. Participants then began the main experiment consisting of four blocks of trials. For each trial, a participant was first presented with latency A and asked to tap or drag; all interactions in a single session used the same input technique. After trying latency A, the participant used the control box to switch to latency B and performed the interaction again."
+  },
+  {
+    "_id": "5b6984bedf8d449db8c340cf",
+    "index": 12,
+    "title": "Participants",
+    "body": "A total of 24 sessions were run across both form-factors (12 drag and 12 tap). The sessions were performed by 14 right- handed participants (6 male) recruited from the broader university community, with a mean age of 28 (sd = 5.4). All had experience with consumer touchscreen devices. Participants were offered the opportunity to perform either one or two sessions (one of each form-factor), separated by at least two hours to account for learnability biases and fatigue effects. 10 participants chose to participate in both sessions. Participants were compensated $20 for each session they completed."
+  },
+  {
+    "_id": "5b6984bea99a662f8cf8d9df",
+    "index": 13,
+    "title": "Design",
+    "body": "Each session consisted entirely of either a tapping or dragging JND study. Participants were randomly assigned to one type of session; those that participated in two sessions were randomly assigned the first session, and were given the other input technique in their second session."
+  },
+  {
+    "_id": "5b6984bec68780eead6af095",
+    "index": 14,
+    "title": "Results",
+    "body": "To analyze our results, we performed a repeated-measures ANOVA using Input Task and Form-Factor as between- participant independent variables. Our dependent variable was JND, which was the average of the thresholds found from the two staircases in a block. To justify the use of a between-participants analysis, we first checked for asymmetrical transfer effects by performing a within- participant analysis to look for effects from Form-Factor ordering (direct-then-indirect vs. indirect-then-direct) or Repetition. Finding none, we were able to proceed with the between-participant design."
+  },
+  {
+    "_id": "5b6984bef1e9183ee472b657",
+    "index": 15,
+    "title": "Discussion",
+    "body": "Our results confirm our hypotheses surrounding the importance of form-factor and input task on the limits of latency perception. It is clear that people are much better overall at noticing latency with direct input touch devices than with indirect ones, suggesting that the threshold that system designers must reach in order to provide perceptually “latency-free” experiences is higher for touchpads than for touchscreens."
+  },
+  {
+    "_id": "5b6984be6215569b2067fcf6",
+    "index": 16,
+    "title": "Display Refresh Rate",
+    "body": "One major contributor to system latency in current touch devices is display refresh rate. No matter how quickly new graphical information is ready, it cannot be displayed as soon as it is available as it must wait to appear until the display can redraw its image. At the time of this writing, 60 Hz displays are still the norm, meaning that a new frame is drawn every 1000 ms / 60 = 16.67 ms."
+  },
+  {
+    "_id": "5b6984be03078fd848e18484",
+    "index": 17,
+    "title": "Apparatus and Participants",
+    "body": "We used the apparatus described in Experiment 1. For this experiment, we recruited 15 right-handed participants (7 male) from the broader university community, with a mean age of 25 (sd = 4.3). Nine of our participants took part in both the dragging and tapping sessions, for a total of 24 sessions (12 tapping and 12 dragging). Participants were compensated $20 per session."
+  },
+  {
+    "_id": "5b6984be15f18a0000d2b6d3",
+    "index": 18,
+    "title": "Design and Procedure",
+    "body": "As in Experiment 1, each session consisted of a series of blocks of A/B trials in which the participant was asked to identify the faster latency. Each session consisted entirely of either tapping or dragging, and contained a total of 8 blocks; the first 4 consisted of one form-factor, and the last 4 of the other. As with Experiment 1 the order of the form- factors was counterbalanced. Each pair of latencies consisted of a baseline latency, and that baseline minus a difference. All blocks contained the same set of latencies pairs; the order of the pairs was randomized, and the A/B position of the individual latencies within a pair were counter-balanced so that each latency appeared twice in the A (first) position and twice in the B (second) position."
+  },
+  {
+    "_id": "5b6984be1ed20b781a8486cb",
+    "index": 19,
+    "title": "Results",
+    "body": "As in Experiment 1, we first checked for asymmetrical learning effects by looking for an ordering effect from Form-Factor. Finding none, we proceeded with the analysis presented in the following sections. While not included in the same statistical model, a comparison between Dragging and Tapping input reveals a large difference in latency perception."
+  },
+  {
+    "_id": "5b6984beb17dda6be5128a47",
+    "index": 20,
+    "title": "Dragging Analysis",
+    "body": "We conducted a repeated-measures ANOVA using Form- Factor (Direct/Indirect), Latency Improvement, and Base Latency as independent variables, and Percent Correct as a dependent variable."
+  },
+  {
+    "_id": "5b6984bec22794e9a8830248",
+    "index": 21,
+    "title": "Dragging Discussion",
+    "body": "Overall, the results from our exploration into the perception of latency improvements when dragging shows that there are not only clear effects from Base Latency and Latency Improvement, but also significant room for perceivable improvement to latency without eliminating it altogether. Considering Table 1, for the Direct Dragging condition, any improvement in latency of 1 frame/sec (fps) or more is easily observable by our participants as a whole (uncolored area)."
+  },
+  {
+    "_id": "5b6984bebfff5eca11599c22",
+    "index": 22,
+    "title": "Tapping Analysis",
+    "body": "We ran another repeated-measures ANOVA using Form- Factor (Direct/Indirect Input), Latency Improvement, and Base Latency as independent variables, and Percent Correct as a dependent variable. Unlike with Dragging, we did not find a significant main effect for Form-Factor on Percent Correct (F1,11 = 2.18, p = 0.17,η2 = 0.27), with participants as a whole correctly identifying the lower latency in 69.3% and 67.1% of Direct Input and Indirect Input trials respectively."
+  },
+  {
+    "_id": "5b6984bea2f85996b9a93c97",
+    "index": 23,
+    "title": "Tapping Discussion",
+    "body": "Considering Table 2, it appears that for systems with base latencies at or below 33.3 ms there is little room for improvement in latency perception in either form-factor (red areas). When considering systems that have a higher base latency, improvements of 2 or more fps seem to have an observable difference (uncolored area) for all base latencies tested. Smaller improvements of 0.5 or 1 fps were generally not observable to our participants (purple area)."
+  },
+  {
+    "_id": "5b6984be18f82098f1aa5c56",
+    "index": 24,
+    "title": "CONCLUSION",
+    "body": "In this paper, we have examined user’s perception of latency for both dragging and tapping tasks under both direct and indirect form-factors. A set of JND studies indicated that the detectable thresholds for dragging (direct: 11 ms, indirect: 55 ms) are lower than for tapping (direct: 69 ms, indirect: 96 ms), and that direct touch systems are more susceptible to noticeable latency than their indirect counterparts. A second set of studies demonstrated that improvements in latency as small as 8.3 ms are noticeable from a wide range of baseline latencies, particularly when dragging."
+  },
+  {
+    "_id": "5b6984be18f82098f1aa5446",
+    "index": 25,
+    "title": "ACKNOWLEDGMENTS",
+    "body": "We would like to thank all of our colleagues at DGP and at Tactual Labs, as well as Katie Barker. Special thanks to Haijun Xia for his assistance with the videos."
+  }
+]

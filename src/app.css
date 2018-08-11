@@ -1,11 +1,59 @@
 * { box-sizing: border-box; }
 
 
+.Archive {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Archive-cell {
+  width: 25%;
+}
+
+
 .ArchiveCard {
+  margin: 10px;
 }
 
 .ArchiveCard-body {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.ArchiveCard-body div {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .ArchiveCard-title {
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.Board {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.BoardCard {
+  width: 250px;
+  background-color: #fff;
+}
+
+.BoardCard-body {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.BoardCard-body div {
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

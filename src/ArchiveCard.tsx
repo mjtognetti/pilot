@@ -6,7 +6,7 @@ export default function ArchiveCard(props: any) {
   const title: string = props.title;
   return (
     <div className="ArchiveCard">
-      <div className="ArchiveCard-body">{body}</div>
+      <div className="ArchiveCard-body"><div>{body}</div></div>
       <div className="ArchiveCard-title">{title}</div>
     </div>
   );

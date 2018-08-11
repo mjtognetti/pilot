@@ -64,6 +64,8 @@
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^5.2.2",
     "electron-prebuilt-compile": "2.0.7",
+    "lodash": "^4.17.10",
+    "react-draggable": "^3.0.5",
     "tslint": "^5.1.0",
     "typescript": "~2.2.2"
   }
