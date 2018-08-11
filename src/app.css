@@ -41,7 +41,12 @@
   background-color: #fff;
 }
 
+.Board-item {
+  display: inline-block;
+}
+
 .BoardCard {
+  display: inline-block;
   width: 250px;
   background-color: #fff;
 }
